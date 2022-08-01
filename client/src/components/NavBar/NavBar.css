@@ -1,0 +1,82 @@
+.header{
+    background: #272727;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.navbar__logo-img{
+    margin-right: 40px;
+}
+.navbar__menu{
+    margin-right: auto;
+}
+.navbar__menu-item{
+    text-decoration: none;
+    margin-right: 27px;
+    color: #CECECE;
+}
+.navbar__menu-item:hover{
+    color:rgb(4, 179, 39);
+    transition: 0.2s;
+}
+.navbar__menu-item:nth-last-child(1){
+    margin-right: 0;
+}
+
+.navbar__auth{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__auth-login{
+    border: none;
+    color: #CECECE;
+    background:#228738;
+    border-radius: 5px;
+    padding: 8px 17px;
+    margin-right: 10px;
+}
+.navbar__auth-login:hover{
+    background:rgb(4, 179, 39);
+    transition: 0.2s;
+}
+.navbar__auth-registration{
+    border: none;
+    background: transparent;
+    color: #CECECE;
+    border-radius: 5px;
+    padding: 8px 17px;
+}
+.navbar__auth-registration:hover{
+    background:#228738;
+    transition: 0.2s;
+}
+
+.drop{
+    display: flex;
+    align-items: center;
+}
+.drop__login{
+    color:#eaeaea;
+    margin: 0;
+}
+.drop__img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+
+.drop__menu{
+    background: #303030;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 50%);
+}
+.drop__menu-btn{
+    color: #eaeaea;
+}

@@ -1,0 +1,19 @@
+.feedback{
+    background: #272727;
+    margin-top: 40px;
+    padding: 25px 35px;
+    /* color: #fff; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.feedback__title{
+    color: #fff;
+    font-size: 16px;
+}
+.feedback__input{
+    color: #fff;
+    margin-bottom: 20px;
+    background: #303030;
+    border: 1px solid #303030;
+}
+.feedback__btn{}

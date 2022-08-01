@@ -1,0 +1,15 @@
+// экспорт констант с путями, чтоб не путаться
+
+export const ADMIN_ROUTE = '/admin'
+export const LOGIN_ROUTE = '/login'
+export const REGISTRATION_ROUTE = '/registration'
+export const CATEGORY_ROUTE = '/category'
+export const HELP_ROUTE = '/help'
+export const POST_ROUTE = '/post'
+export const PROFILE_ROUTE = '/profile'
+export const SETTINGS_ROUTE = '/settings'
+export const STATUS_ROUTE = '/status'
+export const FORUM_ROUTE = '/'
+export const PAYMENT_ROUTE = '/payment'
+export const FEEDBACK_ROUTE = '/feedback'
+export const FAVORIT_ROUTE = '/favorit'

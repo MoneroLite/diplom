@@ -1,0 +1,125 @@
+
+.category__name{
+    margin-bottom: 40px;
+    color: #fff;
+    margin-top: 45px;
+}
+.category__name-title{
+    font-size: 32px;
+    align-items: center;
+    display: flex;
+}
+.category__name-title__img{
+    margin-right: 10px;
+
+}
+.category__name-description{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.category__btn{
+    margin-bottom: 25px;
+}
+.no__post{
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.posts{
+    display: flex;
+    margin-bottom: 10px;
+    background: #474747;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 6px;
+    
+}
+.posts__left{
+    /* background: rgb(236, 236, 236); */
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.posts__left-avatar{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px !important;
+}
+.posts__left-avatar img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+.posts__left-title{
+    font-size: 16px;
+}
+.posts__left-info{
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+.posts__left-tags{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 12px;
+    align-items: center;
+    color: #aeaeae;
+}
+.category__post-tag{
+    margin-left: 10px !important;
+    margin-right: 0 !important;
+    background: #9eb992 !important;
+    border:none !important;
+    font-size: 12px;
+    color: #aeaeae;
+}
+.posts__right{
+    /* background: rgb(207, 207, 207); */
+    /* min-width: 110px; */
+    min-width: 120px;
+    max-width: 120px;
+    justify-content: end;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.posts__right-data{
+    width: min-content;
+}
+.posts__right-login{
+
+}
+.posts__right-null{
+    text-align: center;
+    min-width: 120px;
+    max-width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    /* align-items: center; */
+}
+.posts__right-null__login{
+
+}
+.posts__right-null__date{
+
+}
+.posts__right-date{
+    font-weight: 300;
+}
+.posts__right-avatar{
+    margin-left: 5px !important;
+    width: 40px;
+    height: 40px;
+}
+.posts__right-avatar img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}

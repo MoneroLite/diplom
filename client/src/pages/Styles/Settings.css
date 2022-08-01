@@ -1,0 +1,87 @@
+.settings__form{
+    max-width: 830px;
+    margin: 0 auto;
+    background: #474747;
+    padding: 15px 40px;
+    text-align: right;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.settings__form-item{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 15px;
+    color: #EAEAEA;
+}
+.settings__form-item__password{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px !important;
+    margin-right: 51.5% !important;
+    margin-bottom: 40px;
+}
+
+.settings__form-item__password-input{
+    max-width:182px !important;
+    margin-bottom: 15px;
+    background: #303030 !important;
+    border: 1px solid #303030 !important;
+    border-radius: 5px!important;
+}
+.settings__form-item__password input{
+    /* max-width:182px; */
+    /* margin-bottom: 15px; */
+    /* border-radius: 5px!important; */
+    background: #303030 !important;
+    /* border: 1px solid #303030 !important; */
+    color: #aeaeae !important;
+}
+.settings__form-item__password input::placeholder{
+    color: #5e5e5e !important;
+}
+.settings__form-item__password-old{
+
+}
+.settings__form-item__password-new{
+
+}
+.settings__form-item__password-btn{
+    margin-left: auto;
+}
+
+.settings__form-item--minwth{
+    margin-right: 51.5% !important;
+}
+.settings__form-item__text{
+    margin: 0;
+}
+.settings__form-item__inp{
+    border-radius: 5px!important;
+    max-width: 570px;
+    margin-left: 15px !important;
+    background: #303030 !important;
+    border: 1px solid #303030 !important;
+    color: #aeaeae !important;
+}
+.settings__form-item__inp::placeholder{
+    color: #5e5e5e !important;
+}
+.ant-select-selector{
+    border-radius: 5px!important;
+    background: #303030 !important;
+    border: 1px solid #303030 !important;
+    color: #aeaeae !important;
+    text-align: start;
+}
+.ant-select-arrow{
+    color: #aeaeae !important;
+}
+.ant-select-clear{
+    background: #303030 !important;
+    color: #aeaeae !important;
+}
+.settings__form-btn__info{
+    margin-left: auto;
+}
